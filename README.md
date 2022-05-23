@@ -1,13 +1,36 @@
-# Final-Project-IA
+# Final Project AI Subject
 
-The main goal of this project is that given an image of a dog, predict what breed it is.
+In this project we will train a Neural Network with different images of dogs breeds, so that given an image of a dog it can predict which breed it belongs to.
 
-# Contributing 🧑‍🤝‍🧑
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Installation ⚡
 
-Please make sure to update test as appropiate.
+To install this project all you have to do is:
 
-# License 📕
+```bash
+git clone my-project
+cd my-project
+```
 
-The project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for more information.
+To install the dependencies for this project, inside my-project folder run:
+
+```bash
+python3 requirements.txt
+```
+## Authors 👨‍💻
+
+- [Jordi Farrera Palou](https://www.github.com/JFarrera)
+- [Joel Ampurdanés Bonjoch](https://www.github.com/JoelAmpurda)
+
+
+## Contributing 🧑‍🤝‍🧑
+
+Contributions are always welcome!
+
+For major changes, please open an issue first to discuss what you would like to change.
+
+
+
+## License 📕
+
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for more information.
