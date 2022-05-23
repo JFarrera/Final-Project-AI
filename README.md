@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="200" height="250" src="http://3.bp.blogspot.com/-r_WjxJ8wKZw/USaTSQoPASI/AAAAAAABC_E/RpyoHX2nrDE/s1600/PERROS+%2528134%2529.png">&nbsp;
+</p>
+
 # Final Project AI Subject
 
 In this project we will train a Neural Network with different images of dogs breeds, so that given an image of a dog it can predict which breed it belongs to.
