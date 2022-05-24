@@ -36,18 +36,18 @@ def main(path_to_data, path_to_test_data, train_ratio):
             src = os.path.join(path_to_original, files[j])
             shutil.move(src, dst)
 
-
+# Parse arguments from command line
 def parse_args():
-  parser = argparse.ArgumentParser(description="Dataset divider")
-  parser.add_argument("--data_path", required=True,
-    help="Path to data")
-  parser.add_argument("--test_data_path_to_save", required=True,
-    help="Path to test data where to save")
-  parser.add_argument("--train_ratio", required=True,
-    help="Train ratio - 0.7 means splitting data in 70 % train and 30 % test")
-  return parser.parse_args()
+    parser = argparse.ArgumentParser(description="Dataset divider")
+    parser.add_argument("--data_path", required=True,
+                        help="Path to data")
+    parser.add_argument("--test_data_path_to_save", required=True,
+                        help="Path to test data where to save")
+    parser.add_argument("--train_ratio", required=True,
+                        help="Train ratio - 0.8 means splitting data in 80 % train and 20 % test")
+    return parser.parse_args()
 
 
 if __name__ == "__main__":
-  args = parse_args()
-  main(args.data_path, args.test_data_path_to_save, float(args.train_ratio)) 
+    args = parse_args()
+    main(args.data_path, args.test_data_path_to_save, float(args.train_ratio)) 
